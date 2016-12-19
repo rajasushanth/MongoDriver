@@ -12,6 +12,7 @@ public class Main {
 		Service service = appContext.getBean(Service.class);
 		System.out.println("Processing properties request");
 		service.getPropertiesfromService("CNS", "16.08");
+		//service.getRules();
 		appContext.close();
 	}
 
